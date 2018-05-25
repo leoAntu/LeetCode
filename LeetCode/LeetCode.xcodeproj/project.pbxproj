@@ -11,6 +11,13 @@
 		F77FD8EF20B5456A00566C01 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8EE20B5456A00566C01 /* TwoSum.swift */; };
 		F77FD8F120B5495800566C01 /* Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8F020B5495800566C01 /* Reverse.swift */; };
 		F77FD8F320B5617E00566C01 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8F220B5617E00566C01 /* Palindrome.swift */; };
+		F77FD8FA20B656B200566C01 /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8F920B656B200566C01 /* RomanToInt.swift */; };
+		F77FD8FD20B6610200566C01 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8FC20B6610200566C01 /* LongestCommonPrefix.swift */; };
+		F77FD90020B668ED00566C01 /* ValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8FF20B668ED00566C01 /* ValidBrackets.swift */; };
+		F77FD90320B6912B00566C01 /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD90220B6912B00566C01 /* MergeTwoLists.swift */; };
+		F77FD90620B6B15100566C01 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD90520B6B15100566C01 /* RemoveDuplicates.swift */; };
+		F77FD90B20B6BF4B00566C01 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD90A20B6BF4B00566C01 /* RemoveElement.swift */; };
+		F77FD91020B6C0E000566C01 /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD90F20B6C0E000566C01 /* StrStr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +38,13 @@
 		F77FD8EE20B5456A00566C01 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		F77FD8F020B5495800566C01 /* Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse.swift; sourceTree = "<group>"; };
 		F77FD8F220B5617E00566C01 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		F77FD8F920B656B200566C01 /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
+		F77FD8FC20B6610200566C01 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		F77FD8FF20B668ED00566C01 /* ValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBrackets.swift; sourceTree = "<group>"; };
+		F77FD90220B6912B00566C01 /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
+		F77FD90520B6B15100566C01 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
+		F77FD90A20B6BF4B00566C01 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
+		F77FD90F20B6C0E000566C01 /* StrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 		F77FD8E620B544A700566C01 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				F77FD90E20B6C0CD00566C01 /* 10.实现strStr */,
+				F77FD90920B6BF3700566C01 /* 9.移除元素 */,
+				F77FD90420B6B14100566C01 /* 8.删除排序数组中的重复项 */,
+				F77FD90120B6911900566C01 /* 7.合并两个有序链表 */,
+				F77FD8FE20B668B500566C01 /* 6.有效的括号 */,
+				F77FD8FB20B660F300566C01 /* 5.最长公共前缀 */,
+				F77FD8F820B656A700566C01 /* 4.罗马数字转整数 */,
 				F77FD8F720B561E700566C01 /* 3.回文数 */,
 				F77FD8F620B561D700566C01 /* 2.反转整数 */,
 				F77FD8F420B561A800566C01 /* 1.两数之和 */,
@@ -93,6 +114,62 @@
 				F77FD8F220B5617E00566C01 /* Palindrome.swift */,
 			);
 			path = "3.回文数";
+			sourceTree = "<group>";
+		};
+		F77FD8F820B656A700566C01 /* 4.罗马数字转整数 */ = {
+			isa = PBXGroup;
+			children = (
+				F77FD8F920B656B200566C01 /* RomanToInt.swift */,
+			);
+			path = "4.罗马数字转整数";
+			sourceTree = "<group>";
+		};
+		F77FD8FB20B660F300566C01 /* 5.最长公共前缀 */ = {
+			isa = PBXGroup;
+			children = (
+				F77FD8FC20B6610200566C01 /* LongestCommonPrefix.swift */,
+			);
+			path = "5.最长公共前缀";
+			sourceTree = "<group>";
+		};
+		F77FD8FE20B668B500566C01 /* 6.有效的括号 */ = {
+			isa = PBXGroup;
+			children = (
+				F77FD8FF20B668ED00566C01 /* ValidBrackets.swift */,
+			);
+			path = "6.有效的括号";
+			sourceTree = "<group>";
+		};
+		F77FD90120B6911900566C01 /* 7.合并两个有序链表 */ = {
+			isa = PBXGroup;
+			children = (
+				F77FD90220B6912B00566C01 /* MergeTwoLists.swift */,
+			);
+			path = "7.合并两个有序链表";
+			sourceTree = "<group>";
+		};
+		F77FD90420B6B14100566C01 /* 8.删除排序数组中的重复项 */ = {
+			isa = PBXGroup;
+			children = (
+				F77FD90520B6B15100566C01 /* RemoveDuplicates.swift */,
+			);
+			path = "8.删除排序数组中的重复项";
+			sourceTree = "<group>";
+		};
+		F77FD90920B6BF3700566C01 /* 9.移除元素 */ = {
+			isa = PBXGroup;
+			children = (
+				F77FD90A20B6BF4B00566C01 /* RemoveElement.swift */,
+			);
+			path = "9.移除元素";
+			sourceTree = "<group>";
+		};
+		F77FD90E20B6C0CD00566C01 /* 10.实现strStr */ = {
+			isa = PBXGroup;
+			children = (
+				F77FD90F20B6C0E000566C01 /* StrStr.swift */,
+			);
+			path = "10.实现strStr";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +229,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77FD90020B668ED00566C01 /* ValidBrackets.swift in Sources */,
+				F77FD91020B6C0E000566C01 /* StrStr.swift in Sources */,
+				F77FD90620B6B15100566C01 /* RemoveDuplicates.swift in Sources */,
+				F77FD8FA20B656B200566C01 /* RomanToInt.swift in Sources */,
+				F77FD8FD20B6610200566C01 /* LongestCommonPrefix.swift in Sources */,
 				F77FD8EF20B5456A00566C01 /* TwoSum.swift in Sources */,
 				F77FD8E820B544A700566C01 /* main.swift in Sources */,
+				F77FD90B20B6BF4B00566C01 /* RemoveElement.swift in Sources */,
 				F77FD8F320B5617E00566C01 /* Palindrome.swift in Sources */,
 				F77FD8F120B5495800566C01 /* Reverse.swift in Sources */,
+				F77FD90320B6912B00566C01 /* MergeTwoLists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
