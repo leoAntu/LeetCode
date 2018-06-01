@@ -18,6 +18,14 @@
 		F77FD90620B6B15100566C01 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD90520B6B15100566C01 /* RemoveDuplicates.swift */; };
 		F77FD90B20B6BF4B00566C01 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD90A20B6BF4B00566C01 /* RemoveElement.swift */; };
 		F77FD91020B6C0E000566C01 /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD90F20B6C0E000566C01 /* StrStr.swift */; };
+		F7EC8FBC20BE857600ABF059 /* SearchInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FBB20BE857600ABF059 /* SearchInsert.swift */; };
+		F7EC8FBF20BE89FF00ABF059 /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FBE20BE89FE00ABF059 /* CountAndSay.swift */; };
+		F7EC8FC220BE944F00ABF059 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FC120BE944F00ABF059 /* MaxSubArray.swift */; };
+		F7EC8FC520BE9BE000ABF059 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FC420BE9BE000ABF059 /* LengthOfLastWord.swift */; };
+		F7EC8FC820BFF1B900ABF059 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FC720BFF1B900ABF059 /* PlusOne.swift */; };
+		F7EC8FCB20BFF75600ABF059 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FCA20BFF75600ABF059 /* AddBinary.swift */; };
+		F7FEC3D220C13BF4004A4CAD /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC3D120C13BF4004A4CAD /* MySqrt.swift */; };
+		F7FEC3D520C14558004A4CAD /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC3D420C14558004A4CAD /* ClimbStairs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +53,14 @@
 		F77FD90520B6B15100566C01 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		F77FD90A20B6BF4B00566C01 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		F77FD90F20B6C0E000566C01 /* StrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
+		F7EC8FBB20BE857600ABF059 /* SearchInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsert.swift; sourceTree = "<group>"; };
+		F7EC8FBE20BE89FE00ABF059 /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
+		F7EC8FC120BE944F00ABF059 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
+		F7EC8FC420BE9BE000ABF059 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
+		F7EC8FC720BFF1B900ABF059 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		F7EC8FCA20BFF75600ABF059 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
+		F7FEC3D120C13BF4004A4CAD /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
+		F7FEC3D420C14558004A4CAD /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,14 @@
 		F77FD8E620B544A700566C01 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				F7FEC3D320C1454B004A4CAD /* 18.爬楼梯 */,
+				F7FEC3D020C13BE2004A4CAD /* 17.x 的平方根 */,
+				F7EC8FC920BFF74100ABF059 /* 16.二进制求和 */,
+				F7EC8FC620BFF1A100ABF059 /* 15.加一 */,
+				F7EC8FC320BE9BCE00ABF059 /* 14.最后一个单词的长度 */,
+				F7EC8FC020BE942B00ABF059 /* 13. 最大子序和 */,
+				F7EC8FBD20BE89E700ABF059 /* 12.报数 */,
+				F7EC8FBA20BE855D00ABF059 /* 11.搜索插入位置 */,
 				F77FD90E20B6C0CD00566C01 /* 10.实现strStr */,
 				F77FD90920B6BF3700566C01 /* 9.移除元素 */,
 				F77FD90420B6B14100566C01 /* 8.删除排序数组中的重复项 */,
@@ -172,6 +196,70 @@
 			path = "10.实现strStr";
 			sourceTree = "<group>";
 		};
+		F7EC8FBA20BE855D00ABF059 /* 11.搜索插入位置 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC8FBB20BE857600ABF059 /* SearchInsert.swift */,
+			);
+			path = "11.搜索插入位置";
+			sourceTree = "<group>";
+		};
+		F7EC8FBD20BE89E700ABF059 /* 12.报数 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC8FBE20BE89FE00ABF059 /* CountAndSay.swift */,
+			);
+			path = "12.报数";
+			sourceTree = "<group>";
+		};
+		F7EC8FC020BE942B00ABF059 /* 13. 最大子序和 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC8FC120BE944F00ABF059 /* MaxSubArray.swift */,
+			);
+			path = "13. 最大子序和";
+			sourceTree = "<group>";
+		};
+		F7EC8FC320BE9BCE00ABF059 /* 14.最后一个单词的长度 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC8FC420BE9BE000ABF059 /* LengthOfLastWord.swift */,
+			);
+			path = "14.最后一个单词的长度";
+			sourceTree = "<group>";
+		};
+		F7EC8FC620BFF1A100ABF059 /* 15.加一 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC8FC720BFF1B900ABF059 /* PlusOne.swift */,
+			);
+			path = "15.加一";
+			sourceTree = "<group>";
+		};
+		F7EC8FC920BFF74100ABF059 /* 16.二进制求和 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC8FCA20BFF75600ABF059 /* AddBinary.swift */,
+			);
+			path = "16.二进制求和";
+			sourceTree = "<group>";
+		};
+		F7FEC3D020C13BE2004A4CAD /* 17.x 的平方根 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEC3D120C13BF4004A4CAD /* MySqrt.swift */,
+			);
+			path = "17.x 的平方根";
+			sourceTree = "<group>";
+		};
+		F7FEC3D320C1454B004A4CAD /* 18.爬楼梯 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEC3D420C14558004A4CAD /* ClimbStairs.swift */,
+			);
+			path = "18.爬楼梯";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,16 +317,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7EC8FBF20BE89FF00ABF059 /* CountAndSay.swift in Sources */,
+				F7EC8FBC20BE857600ABF059 /* SearchInsert.swift in Sources */,
 				F77FD90020B668ED00566C01 /* ValidBrackets.swift in Sources */,
 				F77FD91020B6C0E000566C01 /* StrStr.swift in Sources */,
+				F7FEC3D520C14558004A4CAD /* ClimbStairs.swift in Sources */,
+				F7EC8FCB20BFF75600ABF059 /* AddBinary.swift in Sources */,
 				F77FD90620B6B15100566C01 /* RemoveDuplicates.swift in Sources */,
 				F77FD8FA20B656B200566C01 /* RomanToInt.swift in Sources */,
 				F77FD8FD20B6610200566C01 /* LongestCommonPrefix.swift in Sources */,
 				F77FD8EF20B5456A00566C01 /* TwoSum.swift in Sources */,
+				F7EC8FC520BE9BE000ABF059 /* LengthOfLastWord.swift in Sources */,
 				F77FD8E820B544A700566C01 /* main.swift in Sources */,
 				F77FD90B20B6BF4B00566C01 /* RemoveElement.swift in Sources */,
 				F77FD8F320B5617E00566C01 /* Palindrome.swift in Sources */,
+				F7FEC3D220C13BF4004A4CAD /* MySqrt.swift in Sources */,
+				F7EC8FC220BE944F00ABF059 /* MaxSubArray.swift in Sources */,
 				F77FD8F120B5495800566C01 /* Reverse.swift in Sources */,
+				F7EC8FC820BFF1B900ABF059 /* PlusOne.swift in Sources */,
 				F77FD90320B6912B00566C01 /* MergeTwoLists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
