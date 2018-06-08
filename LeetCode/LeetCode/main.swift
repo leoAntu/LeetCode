@@ -102,7 +102,26 @@ import Foundation
 //print(c.mySqrt(12))
 //print("--------------------")
 
-let c: ClimbStairs = ClimbStairs()
-print(c.climbStairs(4))
-print("--------------------")
+//let c: ClimbStairs = ClimbStairs()
+//print(c.climbStairs(4))
+//print("--------------------")
 
+//let c: DeleteDuplicates = DeleteDuplicates()
+//let node = DListNode(1);
+//let node2 = DListNode(2);
+//let node3 = DListNode(2);
+//let node4 = DListNode(3);
+//let node5 = DListNode(3);
+//node.next = node2
+//node2.next = node3
+//node3.next = node4
+//node4.next = node5
+//let res = c.deleteDuplicatesOther(node)!
+//print(res.val)MergeSortedArray
+//print("--------------------")
+
+let c: MergeSortedArray = MergeSortedArray()
+var arr = [1,2,3,0,0,0]
+c.merge(&arr, 3, [2,5,6], 3)
+print(arr)
+print("--------------------")

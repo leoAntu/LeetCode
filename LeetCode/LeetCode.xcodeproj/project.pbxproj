@@ -24,6 +24,8 @@
 		F7EC8FC520BE9BE000ABF059 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FC420BE9BE000ABF059 /* LengthOfLastWord.swift */; };
 		F7EC8FC820BFF1B900ABF059 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FC720BFF1B900ABF059 /* PlusOne.swift */; };
 		F7EC8FCB20BFF75600ABF059 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FCA20BFF75600ABF059 /* AddBinary.swift */; };
+		F7FEB12320CA6A6400CEDC26 /* DeleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB12220CA6A6400CEDC26 /* DeleteDuplicates.swift */; };
+		F7FEB12620CA7AD500CEDC26 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB12520CA7AD500CEDC26 /* MergeSortedArray.swift */; };
 		F7FEC3D220C13BF4004A4CAD /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC3D120C13BF4004A4CAD /* MySqrt.swift */; };
 		F7FEC3D520C14558004A4CAD /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC3D420C14558004A4CAD /* ClimbStairs.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		F7EC8FC420BE9BE000ABF059 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		F7EC8FC720BFF1B900ABF059 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		F7EC8FCA20BFF75600ABF059 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
+		F7FEB12220CA6A6400CEDC26 /* DeleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicates.swift; sourceTree = "<group>"; };
+		F7FEB12520CA7AD500CEDC26 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		F7FEC3D120C13BF4004A4CAD /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
 		F7FEC3D420C14558004A4CAD /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +97,8 @@
 		F77FD8E620B544A700566C01 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				F7FEB12420CA7ABC00CEDC26 /* 20.合并两个有序数组  */,
+				F7FEB11E20CA6A2C00CEDC26 /* 19.删除排序表中的重复元素 */,
 				F7FEC3D320C1454B004A4CAD /* 18.爬楼梯 */,
 				F7FEC3D020C13BE2004A4CAD /* 17.x 的平方根 */,
 				F7EC8FC920BFF74100ABF059 /* 16.二进制求和 */,
@@ -244,6 +250,22 @@
 			path = "16.二进制求和";
 			sourceTree = "<group>";
 		};
+		F7FEB11E20CA6A2C00CEDC26 /* 19.删除排序表中的重复元素 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEB12220CA6A6400CEDC26 /* DeleteDuplicates.swift */,
+			);
+			path = "19.删除排序表中的重复元素";
+			sourceTree = "<group>";
+		};
+		F7FEB12420CA7ABC00CEDC26 /* 20.合并两个有序数组  */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEB12520CA7AD500CEDC26 /* MergeSortedArray.swift */,
+			);
+			path = "20.合并两个有序数组 ";
+			sourceTree = "<group>";
+		};
 		F7FEC3D020C13BE2004A4CAD /* 17.x 的平方根 */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +314,7 @@
 				TargetAttributes = {
 					F77FD8E320B544A700566C01 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -319,6 +342,7 @@
 			files = (
 				F7EC8FBF20BE89FF00ABF059 /* CountAndSay.swift in Sources */,
 				F7EC8FBC20BE857600ABF059 /* SearchInsert.swift in Sources */,
+				F7FEB12320CA6A6400CEDC26 /* DeleteDuplicates.swift in Sources */,
 				F77FD90020B668ED00566C01 /* ValidBrackets.swift in Sources */,
 				F77FD91020B6C0E000566C01 /* StrStr.swift in Sources */,
 				F7FEC3D520C14558004A4CAD /* ClimbStairs.swift in Sources */,
@@ -332,6 +356,7 @@
 				F77FD90B20B6BF4B00566C01 /* RemoveElement.swift in Sources */,
 				F77FD8F320B5617E00566C01 /* Palindrome.swift in Sources */,
 				F7FEC3D220C13BF4004A4CAD /* MySqrt.swift in Sources */,
+				F7FEB12620CA7AD500CEDC26 /* MergeSortedArray.swift in Sources */,
 				F7EC8FC220BE944F00ABF059 /* MaxSubArray.swift in Sources */,
 				F77FD8F120B5495800566C01 /* Reverse.swift in Sources */,
 				F7EC8FC820BFF1B900ABF059 /* PlusOne.swift in Sources */,
@@ -458,8 +483,15 @@
 		F77FD8EC20B544A700566C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -467,7 +499,13 @@
 		F77FD8ED20B544A700566C01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
