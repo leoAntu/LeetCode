@@ -120,8 +120,139 @@ import Foundation
 //print(res.val)MergeSortedArray
 //print("--------------------")
 
-let c: MergeSortedArray = MergeSortedArray()
-var arr = [1,2,3,0,0,0]
-c.merge(&arr, 3, [2,5,6], 3)
-print(arr)
+//let c: MergeSortedArray = MergeSortedArray()
+//var arr = [1,2,3,0,0,0]
+//c.merge(&arr, 3, [2,5,6], 3)
+//print(arr)
+//print("--------------------")
+
+//let v = createTreeWithValues([5,6,3,4,7])
+////打印左节点，
+//print("左节点:")
+//
+//var left = v
+//while left != nil {
+//    print(left?.value as Any)
+//    left = left?.left
+//}
+//
+//print("右节点:")
+////打印右节点，
+//var right = v?.right
+//while right != nil {
+//    print(right?.value as Any)
+//    right = right?.right
+//}
+//
+//print("--------------------")
+//
+//let res = treeNodeAtIndex(3, inTree: v)
+//print(res?.value as Any)
+//print("--------------------")
+//
+//print("先序遍历")
+//
+//preOrderTraverseTree(v!) { (node) in
+//    print(node?.value as Any)
+//}
+//
+//print("--------------------")
+//
+//print("中序遍历")
+//inOrderTraverseTree(v!) { (node) in
+//    print(node?.value as Any)
+//}
+//print("--------------------")
+//print("后序遍历")
+//postOrderTraverseTree(v!) { (node) in
+//    print(node?.value as Any)
+//}
+//print("--------------------")
+//
+//print("层次遍历")
+//levelTraverseTree(v!) { (node) in
+//    print(node?.value as Any)
+//}
+//print("--------------------")
+//
+//print("二叉树的深度")
+//print(depthOfTree(v))
+//print("--------------------")
+//
+//
+//print("二叉树的宽度")
+//print(widthOfTree(v!))
+//print("--------------------")
+//
+//print("二叉树的节点数")
+//print(numberOfNodesInTree(v!))
+//print("--------------------")
+//
+//print("二叉树某层中的节点数")
+//print(numberOfNodesOnLevel(2, v!))
+//print("--------------------")
+//
+//print("二叉树叶子节点数")
+//print(numberOfLeafsInTree(v!))
+//print("--------------------")
+//
+//print("二叉树最大距离（直径）")
+//print(maxDistanceOfTree(v))
+//print("--------------------")
+
+//print("二叉树最大距离方法2（直径）")
+//print(maxDistanceOfTreeMethod2(v))
+//print("--------------------")
+
+//print("二叉树中某个节点到根节点的路径")
+//let node = v?.left?.right
+//print(pathOfTreeNode(node, v!))
+//print("--------------------")
+//
+//print("二叉树中两个节点最近的公共父节点")
+//let node1 = v?.left?.right
+//let node2 = v?.left
+//print(parentOfNode(node1, node2, v)?.value)
+//print("--------------------")
+//
+//print("二叉树两个节点之间的距离")
+//let node3 = v?.left?.right
+//let node4 = v?.right
+//print(distanceFromNode(node3, node4, v))
+//print("--------------------")
+//
+//print("翻转二叉树")
+//let res1 = invertBinaryTree(v)
+//print(invertBinaryTree(v)?.value)
+//print("--------------------")
+//
+//
+//print("是否完全二叉树")
+//print(isCompleteBinaryTree(v))
+//print("--------------------")
+//
+//print("是否是满二叉树")
+//print(isFullBinaryTree(v))
+//print("--------------------")
+//
+//print("是否是平衡二叉树")
+//print(isAVLBinaryTree(v))
+//print("--------------------")
+
+let node = TreeNode(1)
+let node1 = TreeNode(2)
+//let node2 = TreeNode(6)
+
+node.left = node1
+//node.right = node2
+
+let node3 = TreeNode(1)
+//let node4 = TreeNode(5)
+let node5 = TreeNode(2)
+
+node3.left = nil
+node3.right = node5
+let b = IsSameTree()
+
+print(b.isSameTree(node, node3))
 print("--------------------")

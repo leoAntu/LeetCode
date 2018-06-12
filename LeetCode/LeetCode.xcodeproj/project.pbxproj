@@ -26,6 +26,10 @@
 		F7EC8FCB20BFF75600ABF059 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC8FCA20BFF75600ABF059 /* AddBinary.swift */; };
 		F7FEB12320CA6A6400CEDC26 /* DeleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB12220CA6A6400CEDC26 /* DeleteDuplicates.swift */; };
 		F7FEB12620CA7AD500CEDC26 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB12520CA7AD500CEDC26 /* MergeSortedArray.swift */; };
+		F7FEB12920CE682400CEDC26 /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB12820CE682400CEDC26 /* BinaryTreeNode.swift */; };
+		F7FEB12C20CFBEEA00CEDC26 /* IsSameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB12B20CFBEEA00CEDC26 /* IsSameTree.swift */; };
+		F7FEB12F20CFC65000CEDC26 /* IsSymmetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB12E20CFC65000CEDC26 /* IsSymmetric.swift */; };
+		F7FEB13220CFCDAC00CEDC26 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEB13120CFCDAC00CEDC26 /* MaxDepth.swift */; };
 		F7FEC3D220C13BF4004A4CAD /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC3D120C13BF4004A4CAD /* MySqrt.swift */; };
 		F7FEC3D520C14558004A4CAD /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC3D420C14558004A4CAD /* ClimbStairs.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +67,10 @@
 		F7EC8FCA20BFF75600ABF059 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		F7FEB12220CA6A6400CEDC26 /* DeleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicates.swift; sourceTree = "<group>"; };
 		F7FEB12520CA7AD500CEDC26 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
+		F7FEB12820CE682400CEDC26 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
+		F7FEB12B20CFBEEA00CEDC26 /* IsSameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSameTree.swift; sourceTree = "<group>"; };
+		F7FEB12E20CFC65000CEDC26 /* IsSymmetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetric.swift; sourceTree = "<group>"; };
+		F7FEB13120CFCDAC00CEDC26 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
 		F7FEC3D120C13BF4004A4CAD /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
 		F7FEC3D420C14558004A4CAD /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +105,10 @@
 		F77FD8E620B544A700566C01 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				F7FEB13020CFCD9F00CEDC26 /* 23. 二叉树的最大深度 */,
+				F7FEB12D20CFC63D00CEDC26 /* 22.对称二叉树 */,
+				F7FEB12720CE681000CEDC26 /* TO-二叉树学习 */,
+				F7FEB12A20CFBEB800CEDC26 /* 21.相同的树 */,
 				F7FEB12420CA7ABC00CEDC26 /* 20.合并两个有序数组  */,
 				F7FEB11E20CA6A2C00CEDC26 /* 19.删除排序表中的重复元素 */,
 				F7FEC3D320C1454B004A4CAD /* 18.爬楼梯 */,
@@ -266,6 +278,38 @@
 			path = "20.合并两个有序数组 ";
 			sourceTree = "<group>";
 		};
+		F7FEB12720CE681000CEDC26 /* TO-二叉树学习 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEB12820CE682400CEDC26 /* BinaryTreeNode.swift */,
+			);
+			path = "TO-二叉树学习";
+			sourceTree = "<group>";
+		};
+		F7FEB12A20CFBEB800CEDC26 /* 21.相同的树 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEB12B20CFBEEA00CEDC26 /* IsSameTree.swift */,
+			);
+			path = "21.相同的树";
+			sourceTree = "<group>";
+		};
+		F7FEB12D20CFC63D00CEDC26 /* 22.对称二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEB12E20CFC65000CEDC26 /* IsSymmetric.swift */,
+			);
+			path = "22.对称二叉树";
+			sourceTree = "<group>";
+		};
+		F7FEB13020CFCD9F00CEDC26 /* 23. 二叉树的最大深度 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEB13120CFCDAC00CEDC26 /* MaxDepth.swift */,
+			);
+			path = "23. 二叉树的最大深度";
+			sourceTree = "<group>";
+		};
 		F7FEC3D020C13BE2004A4CAD /* 17.x 的平方根 */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,14 +385,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7EC8FBF20BE89FF00ABF059 /* CountAndSay.swift in Sources */,
+				F7FEB12C20CFBEEA00CEDC26 /* IsSameTree.swift in Sources */,
 				F7EC8FBC20BE857600ABF059 /* SearchInsert.swift in Sources */,
+				F7FEB12920CE682400CEDC26 /* BinaryTreeNode.swift in Sources */,
 				F7FEB12320CA6A6400CEDC26 /* DeleteDuplicates.swift in Sources */,
+				F7FEB12F20CFC65000CEDC26 /* IsSymmetric.swift in Sources */,
 				F77FD90020B668ED00566C01 /* ValidBrackets.swift in Sources */,
 				F77FD91020B6C0E000566C01 /* StrStr.swift in Sources */,
 				F7FEC3D520C14558004A4CAD /* ClimbStairs.swift in Sources */,
 				F7EC8FCB20BFF75600ABF059 /* AddBinary.swift in Sources */,
 				F77FD90620B6B15100566C01 /* RemoveDuplicates.swift in Sources */,
 				F77FD8FA20B656B200566C01 /* RomanToInt.swift in Sources */,
+				F7FEB13220CFCDAC00CEDC26 /* MaxDepth.swift in Sources */,
 				F77FD8FD20B6610200566C01 /* LongestCommonPrefix.swift in Sources */,
 				F77FD8EF20B5456A00566C01 /* TwoSum.swift in Sources */,
 				F7EC8FC520BE9BE000ABF059 /* LengthOfLastWord.swift in Sources */,
