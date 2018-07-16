@@ -239,20 +239,39 @@ import Foundation
 //print(isAVLBinaryTree(v))
 //print("--------------------")
 
-let node = TreeNode(1)
-let node1 = TreeNode(2)
-//let node2 = TreeNode(6)
+//let node = TreeNode(1)
+//let node1 = TreeNode(2)
+////let node2 = TreeNode(6)
+//
+//node.left = node1
+////node.right = node2
+//
+//let node3 = TreeNode(1)
+////let node4 = TreeNode(5)
+//let node5 = TreeNode(2)
+//
+//node3.left = nil
+//node3.right = node5
+//let b = IsSameTree()
+//
+//print(b.isSameTree(node, node3))
+//print("--------------------")
 
-node.left = node1
+
+//let node = TreeNode(3);
+//let node1 = TreeNode(9)
+//let node2 = TreeNode(20)
+//let node3 = TreeNode(15)
+//let node4 = TreeNode(7)
+//node.left = node1
 //node.right = node2
+//node2.left = node3;
+//node2.right = node4;
+//
+//let n = LevelOrderBottom()
+//print(n.levelOrderBottom(node))
+//print("--------------------")
 
-let node3 = TreeNode(1)
-//let node4 = TreeNode(5)
-let node5 = TreeNode(2)
-
-node3.left = nil
-node3.right = node5
-let b = IsSameTree()
-
-print(b.isSameTree(node, node3))
+let n = SortedArrayToBST()
+print(n.sortedArrayToBST([-10,-3,0,5,9]))
 print("--------------------")
