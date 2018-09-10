@@ -272,6 +272,13 @@ import Foundation
 //print(n.levelOrderBottom(node))
 //print("--------------------")
 
-let n = SortedArrayToBST()
-print(n.sortedArrayToBST([-10,-3,0,5,9]))
-print("--------------------")
+//let n = SortedArrayToBST()
+//print(n.sortedArrayToBST([-10,-3,0,5,9]))
+//print("--------------------")
+
+let n = QuickSort()
+//var arr:[Int] = [10,3,17,8,5,2,1,9,5,4]
+var arr:[Int] = [1,2,3,4,5,6,7,8,9]
+
+n.quickSort(data: &arr, low: 0, high: arr.count-1)
+print("FlyElephant方案2:-\(arr)")

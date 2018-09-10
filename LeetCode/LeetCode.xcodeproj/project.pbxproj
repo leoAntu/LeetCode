@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7100A7021463CBB00510047 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100A6F21463CBB00510047 /* QuickSort.swift */; };
 		F77FD8E820B544A700566C01 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8E720B544A700566C01 /* main.swift */; };
 		F77FD8EF20B5456A00566C01 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8EE20B5456A00566C01 /* TwoSum.swift */; };
 		F77FD8F120B5495800566C01 /* Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FD8F020B5495800566C01 /* Reverse.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F7100A6F21463CBB00510047 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		F77FD8E420B544A700566C01 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77FD8E720B544A700566C01 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F77FD8EE20B5456A00566C01 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7100A6E21463C9500510047 /* TO-快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+				F7100A6F21463CBB00510047 /* QuickSort.swift */,
+			);
+			path = "TO-快速排序";
+			sourceTree = "<group>";
+		};
 		F77FD8DB20B544A600566C01 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		F77FD8E620B544A700566C01 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				F7100A6E21463C9500510047 /* TO-快速排序 */,
 				F7E318E920D3BCB9003CEDD1 /* 25.将有序数组转换为二叉搜索树 */,
 				F7E318E620D3B810003CEDD1 /* 24. 二叉树的层次遍历 II */,
 				F7FEB13020CFCD9F00CEDC26 /* 23. 二叉树的最大深度 */,
@@ -429,6 +440,7 @@
 				F77FD8F320B5617E00566C01 /* Palindrome.swift in Sources */,
 				F7FEC3D220C13BF4004A4CAD /* MySqrt.swift in Sources */,
 				F7FEB12620CA7AD500CEDC26 /* MergeSortedArray.swift in Sources */,
+				F7100A7021463CBB00510047 /* QuickSort.swift in Sources */,
 				F7EC8FC220BE944F00ABF059 /* MaxSubArray.swift in Sources */,
 				F77FD8F120B5495800566C01 /* Reverse.swift in Sources */,
 				F7EC8FC820BFF1B900ABF059 /* PlusOne.swift in Sources */,

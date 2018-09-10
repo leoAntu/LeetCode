@@ -146,7 +146,7 @@ func treeNodeAtIndex(_ index: Int, inTree rootNode: BinaryTreeNode?) -> BinaryTr
  *  @param rootNode 根节点
  *  @param handler  访问节点处理函数
  */
-func  (_ rootNode: BinaryTreeNode?, handler: (BinaryTreeNode?) -> Void) -> Void {
+func  preOrderTraverseTree(_ rootNode: BinaryTreeNode?, handler: (BinaryTreeNode?) -> Void) -> Void {
 
     guard let rootNode = rootNode else {
         return
@@ -633,11 +633,11 @@ func distanceFromNode(_ nodeA: BinaryTreeNode?, _ nodeB: BinaryTreeNode?, _ root
 ///怎么判断是二叉查找树
 //左子树的值都小于当前节点的值，右子树节点的值都大于当前节点的值
 func isValidBST(_ rootNode: BinaryTreeNode?) -> Bool {
-    return _helper(rootNode,nil,nil);
+    return _helper(node: rootNode, nil, nil);
 }
 
 func _helper(node:BinaryTreeNode?, _ min: Int?, _ max: Int?) -> Bool {
-    guard let rootNode = rootNode else {
+    guard let node = node else {
         return true;
     }
     //所有右子树节点的值都必须大于根节点的值
@@ -649,7 +649,7 @@ func _helper(node:BinaryTreeNode?, _ min: Int?, _ max: Int?) -> Bool {
     if let max = max, node.value >= max {
         return false
     }
-    return _helper(node.left,min,node.value) && _helper(node.right,node.value,max);
+    return _helper(node: node.left, min, node.value) && _helper(node: node.right, node.value, max);
 }
 
 
