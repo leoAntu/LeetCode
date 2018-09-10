@@ -146,7 +146,7 @@ func treeNodeAtIndex(_ index: Int, inTree rootNode: BinaryTreeNode?) -> BinaryTr
  *  @param rootNode 根节点
  *  @param handler  访问节点处理函数
  */
-func preOrderTraverseTree(_ rootNode: BinaryTreeNode?, handler: (BinaryTreeNode?) -> Void) -> Void {
+func  (_ rootNode: BinaryTreeNode?, handler: (BinaryTreeNode?) -> Void) -> Void {
 
     guard let rootNode = rootNode else {
         return
@@ -630,6 +630,29 @@ func distanceFromNode(_ nodeA: BinaryTreeNode?, _ nodeB: BinaryTreeNode?, _ root
     return 0
 }
 
+///怎么判断是二叉查找树
+//左子树的值都小于当前节点的值，右子树节点的值都大于当前节点的值
+func isValidBST(_ rootNode: BinaryTreeNode?) -> Bool {
+    return _helper(rootNode,nil,nil);
+}
+
+func _helper(node:BinaryTreeNode?, _ min: Int?, _ max: Int?) -> Bool {
+    guard let rootNode = rootNode else {
+        return true;
+    }
+    //所有右子树节点的值都必须大于根节点的值
+    if let min = min, node.value <= min {
+        return false;
+    }
+    
+    //所有左子树的值都必须小于根节点
+    if let max = max, node.value >= max {
+        return false
+    }
+    return _helper(node.left,min,node.value) && _helper(node.right,node.value,max);
+}
+
+
 //翻转二叉树
 //你会翻转二叉树吗？如果不会，那对不起，我们不会录用你！
 //
@@ -653,7 +676,6 @@ func invertBinaryTree(_ rootNode: BinaryTreeNode?) -> BinaryTreeNode? {
     
     _ = invertBinaryTree(rootNode.left)
     _ = invertBinaryTree(rootNode.right)
-    
     
     let temp: BinaryTreeNode? = rootNode.left
     rootNode.left = rootNode.right
